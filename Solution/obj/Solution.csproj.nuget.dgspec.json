@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\INFTMP\\Documents\\Etna\\Solution\\Solution.csproj": {}
+    "C:\\Users\\INFTMP\\Documents\\Etna\\Algo\\EtnaAlgo\\Solution\\Solution.csproj": {}
   },
   "projects": {
-    "C:\\Users\\INFTMP\\Documents\\Etna\\Solution\\Solution.csproj": {
+    "C:\\Users\\INFTMP\\Documents\\Etna\\Algo\\EtnaAlgo\\Solution\\Solution.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\INFTMP\\Documents\\Etna\\Solution\\Solution.csproj",
+        "projectUniqueName": "C:\\Users\\INFTMP\\Documents\\Etna\\Algo\\EtnaAlgo\\Solution\\Solution.csproj",
         "projectName": "Solution",
-        "projectPath": "C:\\Users\\INFTMP\\Documents\\Etna\\Solution\\Solution.csproj",
+        "projectPath": "C:\\Users\\INFTMP\\Documents\\Etna\\Algo\\EtnaAlgo\\Solution\\Solution.csproj",
         "packagesPath": "C:\\Users\\INFTMP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\INFTMP\\Documents\\Etna\\Solution\\obj\\",
+        "outputPath": "C:\\Users\\INFTMP\\Documents\\Etna\\Algo\\EtnaAlgo\\Solution\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
