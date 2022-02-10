@@ -11,6 +11,23 @@ namespace Solution
             Console.WriteLine(Stormtroopers(new List<int>{ 1, 2, 2, 3, 4, 4, 5 }));
         }
 
+        public static List<int> DoABarrelRoll(List<int> numbers, int k)
+        {
+            List<int> firstList = new List<int>();
+            List<int> secondList = new List<int>();
+
+            for (int i = 0; i < k; i++)
+            {
+                firstList.Add(numbers[i]);
+            }
+            for (int y = k; y < numbers.Count; y++)
+            {
+                secondList.Add(numbers[y]);
+            }
+            secondList.AddRange(firstList);
+            return secondList;
+        }
+
         public static string Yulaw(string s)
         {
             int dynamicSize = s.Length;
