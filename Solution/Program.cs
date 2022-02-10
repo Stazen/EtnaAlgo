@@ -11,6 +11,13 @@ namespace Solution
             Console.WriteLine(Stormtroopers(new List<int>{ 1, 2, 2, 3, 4, 4, 5 }));
         }
 
+        public static string LittleBoxes(string s)
+        {
+            char[] array = s.ToCharArray();
+            Array.Sort(array, StringComparer.Ordinal);
+            return new string(array);
+        }
+
         public static bool Falafel(string s)
         {
             bool isPalindrome = true;        
