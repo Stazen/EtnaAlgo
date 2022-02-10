@@ -11,6 +11,26 @@ namespace Solution
             Console.WriteLine(Stormtroopers(new List<int>{ 1, 2, 2, 3, 4, 4, 5 }));
         }
 
+        public static bool Falafel(string s)
+        {
+            bool isPalindrome = true;        
+
+            string sReverse = s;
+            char[] array = sReverse.ToCharArray();
+            Array.Reverse(array);
+            sReverse = new string(array);
+
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (s[i] != sReverse[i])
+                {
+                    return false;
+                }
+            }
+
+            return isPalindrome;
+        }
+
         public static List<int> DoABarrelRoll(List<int> numbers, int k)
         {
             List<int> firstList = new List<int>();
