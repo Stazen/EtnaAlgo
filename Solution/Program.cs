@@ -11,6 +11,26 @@ namespace Solution
             Console.WriteLine(Stormtroopers(new List<int>{ 1, 2, 2, 3, 4, 4, 5 }));
         }
 
+        public static string Yulaw(string s)
+        {
+            int dynamicSize = s.Length;
+            for (int i = 0; i < dynamicSize; i++)
+            {
+                for (int y = i+1; y < dynamicSize; y++)
+                {
+                    if (s[i] == s[y])
+                    {
+                        //Console.WriteLine(s[i] + " | " + s[y]);
+                        s = s.Remove(y,1);
+                        dynamicSize = s.Length;
+                        i = 0;
+                    }                    
+                }
+            }
+
+            return s;
+        }
+
         public static List<int> Stormtroopers(List<int> numbers)
         {
             int dynamicSize = numbers.Count;
