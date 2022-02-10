@@ -11,6 +11,18 @@ namespace Solution
             Console.WriteLine(Stormtroopers(new List<int>{ 1, 2, 2, 3, 4, 4, 5 }));
         }
 
+        public static List<string> RogerRabbit(int n)
+        {
+            List<string> binaryNumber = new List<string>();
+
+            for (int i = 1; i < (n+1); i++)
+            {
+                binaryNumber.Add(Convert.ToString(i, 2));
+            }
+
+            return binaryNumber;
+        }
+
         public static string LittleBoxes(string s)
         {
             char[] array = s.ToCharArray();
